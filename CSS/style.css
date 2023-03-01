@@ -29,21 +29,6 @@ body {
   width: 500px;
 }
 
-.juegos-de-equipos {
-  height: 400px;
-  width: 500px;
-}
-
-.-bailes- {
-  height: 400px;
-  width: 500px;
-}
-
-.cuentos-y-canciones {
-  height: 400px;
-  width: 500px;
-}
-
 .-juegospileta- {
   height: 500px;
   width: 500px;
@@ -129,7 +114,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticy;
+  position: sticky;
 }
 
 header {
