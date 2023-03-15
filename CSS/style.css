@@ -16,26 +16,6 @@ body div .container-fluid {
   display: grid;
 }
 
-header {
-  background-color: blue;
-  text-transform: uppercase;
-}
-
-.container {
-  margin: 0%;
-  min-width: 360px;
-  max-width: 1320px;
-  text-align: center;
-  position: sticky;
-}
-
-.header_1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-}
-
 nav .navbar {
   nav-up: auto;
 }
@@ -50,6 +30,30 @@ nav .nav__link {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+}
+
+header {
+  background-color: blue;
+  text-transform: uppercase;
+}
+header .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+header .header_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+h1 {
+  padding: 10px;
+  border: 3px solid black;
+  text-align: center;
 }
 
 section .container {
@@ -95,12 +99,6 @@ section .-pileta- {
   width: 500px;
 }
 
-h1 {
-  padding: 10px;
-  border: 3px solid black;
-  text-align: center;
-}
-
 h2 {
   text-align: center;
 }
@@ -112,6 +110,26 @@ div .grupal2023 {
 div .equipo-jefes {
   height: 500px;
   width: 400px;
+}
+
+fieldset .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+
+iframe .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+iframe .-volley- {
+  height: 500px;
+  width: 600px;
 }
 
 footer .container {
@@ -135,26 +153,6 @@ footer .-facebook- {
 footer .footer-bottom {
   color: white;
   text-decoration: none;
-}
-
-fieldset .container {
-  margin: 0%;
-  min-width: 360px;
-  max-width: 1320px;
-  text-align: center;
-  position: sticky;
-}
-
-iframe .container {
-  margin: 0%;
-  min-width: 360px;
-  max-width: 1320px;
-  text-align: center;
-  position: sticky;
-}
-iframe .-volley- {
-  height: 500px;
-  width: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */

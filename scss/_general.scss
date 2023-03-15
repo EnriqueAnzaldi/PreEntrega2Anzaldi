@@ -1,0 +1,92 @@
+section {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+
+  .row {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .col {
+    columns: auto;
+
+    .-logo- {
+      height: 200px;
+      width: 300px;
+      columns: 12;
+    }
+  }
+
+  .-club- {
+    height: 600px;
+    width: 600px;
+  }
+
+  .-volley- {
+    height: 500px;
+    width: 600px;
+  }
+
+  .-pileta2- {
+    height: 600px;
+    width: 700px;
+  }
+
+  .-walter- {
+    height: 400px;
+  }
+
+  .-carreras- {
+    height: 400px;
+    width: 500px;
+  }
+
+  .-pileta- {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+div {
+  .grupal2023 {
+    height: 500px;
+    width: 700px;
+  }
+
+  .equipo-jefes {
+    height: 500px;
+    width: 400px;
+  }
+}
+
+fieldset {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+}
+
+iframe {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+  .-volley- {
+    height: 500px;
+    width: 600px;
+  }
+}
