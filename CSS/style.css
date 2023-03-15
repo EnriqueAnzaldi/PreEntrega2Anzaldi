@@ -5,64 +5,10 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
   background-color: aqua;
 }
-
-.-logo- {
-  height: 200px;
-  width: 300px;
-  columns: 12;
-}
-
-.grupal2023 {
-  height: 500px;
-  width: 700px;
-}
-
-.equipo-jefes {
-  height: 500px;
-  width: 400px;
-}
-
-.-carreras- {
-  height: 400px;
-  width: 500px;
-}
-
-.-pileta- {
-  height: 500px;
-  width: 500px;
-}
-
-.-club- {
-  height: 600px;
-  width: 600px;
-}
-
-.-volley- {
-  height: 500px;
-  width: 600px;
-}
-
-.-pileta2- {
-  height: 600px;
-  width: 700px;
-}
-
-.-walter- {
-  height: 400px;
-}
-
-.-facebook- {
-  height: 30px;
-}
-
-img {
-  max-width: 100%;
-}
-
-.container-fluid {
+body div .container-fluid {
   margin: 0 auto;
   width: 100%;
   min-width: 360px;
@@ -70,12 +16,17 @@ img {
   display: grid;
 }
 
+header {
+  background-color: blue;
+  text-transform: uppercase;
+}
+
 .container {
-  margin: 0 auto;
+  margin: 0%;
   min-width: 360px;
   max-width: 1320px;
   text-align: center;
-  display: grid;
+  position: sticky;
 }
 
 .header_1 {
@@ -85,29 +36,63 @@ img {
   position: sticky;
 }
 
-header {
-  background-color: blue;
-  text-transform: uppercase;
+nav .navbar {
+  nav-up: auto;
 }
-
-.nav__list {
+nav .nav__list {
   list-style: none;
   display: flex;
 }
-
-.nav__item {
+nav .nav__item {
   margin-left: 5.3rem;
 }
-
-.nav__link {
+nav .nav__link {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
 
-.footer-bottom {
-  color: white;
-  text-decoration: none;
+section .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+section .row {
+  padding: 5px;
+  margin: 10px;
+}
+section .col {
+  columns: auto;
+}
+section .col .-logo- {
+  height: 200px;
+  width: 300px;
+  columns: 12;
+}
+section .-club- {
+  height: 600px;
+  width: 600px;
+}
+section .-volley- {
+  height: 500px;
+  width: 600px;
+}
+section .-pileta2- {
+  height: 600px;
+  width: 700px;
+}
+section .-walter- {
+  height: 400px;
+}
+section .-carreras- {
+  height: 400px;
+  width: 500px;
+}
+section .-pileta- {
+  height: 500px;
+  width: 500px;
 }
 
 h1 {
@@ -120,15 +105,56 @@ h2 {
   text-align: center;
 }
 
-.navbar {
-  nav-up: auto;
+div .grupal2023 {
+  height: 500px;
+  width: 700px;
+}
+div .equipo-jefes {
+  height: 500px;
+  width: 400px;
 }
 
-.row {
+footer .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+footer .row {
   padding: 5px;
   margin: 10px;
 }
-
-.col {
+footer .col {
   columns: auto;
 }
+footer .-facebook- {
+  height: 30px;
+  columns: 4;
+}
+footer .footer-bottom {
+  color: white;
+  text-decoration: none;
+}
+
+fieldset .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+
+iframe .container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+iframe .-volley- {
+  height: 500px;
+  width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */

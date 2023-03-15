@@ -1,0 +1,20 @@
+{
+  "name": "clase3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnriqueAnzaldi/PreEntrega2Anzaldi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnriqueAnzaldi/PreEntrega2Anzaldi/issues"
+  },
+  "homepage": "https://github.com/EnriqueAnzaldi/PreEntrega2Anzaldi#readme"
+}

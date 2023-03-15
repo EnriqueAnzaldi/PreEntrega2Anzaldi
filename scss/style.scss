@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  background-color: aqua;
+
+  div {
+    .container-fluid {
+      margin: 0 auto;
+      width: 100%;
+      min-width: 360px;
+      max-width: 1320px;
+      display: grid;
+    }
+  }
+}
+
+header {
+  background-color: blue;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 0%;
+  min-width: 360px;
+  max-width: 1320px;
+  text-align: center;
+  position: sticky;
+}
+
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+nav {
+  .navbar {
+    nav-up: auto;
+  }
+
+  .nav__list {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav__item {
+    margin-left: 5.3rem;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+
+section {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+
+  .row {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .col {
+    columns: auto;
+
+    .-logo- {
+      height: 200px;
+      width: 300px;
+      columns: 12;
+    }
+  }
+
+  .-club- {
+    height: 600px;
+    width: 600px;
+  }
+
+  .-volley- {
+    height: 500px;
+    width: 600px;
+  }
+
+  .-pileta2- {
+    height: 600px;
+    width: 700px;
+  }
+
+  .-walter- {
+    height: 400px;
+  }
+
+  .-carreras- {
+    height: 400px;
+    width: 500px;
+  }
+
+  .-pileta- {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+h1 {
+  padding: 10px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+div {
+  .grupal2023 {
+    height: 500px;
+    width: 700px;
+  }
+
+  .equipo-jefes {
+    height: 500px;
+    width: 400px;
+  }
+}
+
+footer {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+
+  .row {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .col {
+    columns: auto;
+  }
+
+  .-facebook- {
+    height: 30px;
+    columns: 4;
+  }
+
+  .footer-bottom {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+fieldset {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+}
+
+iframe {
+  .container {
+    margin: 0%;
+    min-width: 360px;
+    max-width: 1320px;
+    text-align: center;
+    position: sticky;
+  }
+  .-volley- {
+    height: 500px;
+    width: 600px;
+  }
+}
