@@ -14,27 +14,24 @@ section {
 
   .col {
     columns: auto;
+  }
 
-    .-logo- {
-      height: 200px;
-      width: 300px;
-      columns: 12;
-    }
+  .-logo- {
+    margin-top: 2%;
+    height: 200px;
+    width: 300px;
   }
 
   .-club- {
-    height: 600px;
-    width: 600px;
+    width: 100%;
   }
 
   .-volley- {
-    height: 500px;
-    width: 600px;
+    width: 100%;
   }
 
   .-pileta2- {
-    height: 600px;
-    width: 700px;
+    width: 100%;
   }
 
   .-walter- {
@@ -42,29 +39,24 @@ section {
   }
 
   .-carreras- {
-    height: 400px;
-    width: 500px;
+    width: 100%;
   }
 
   .-pileta- {
-    height: 500px;
-    width: 500px;
+    width: 100%;
+  }
+
+  .grupal2023 {
+    width: 100%;
+  }
+
+  .equipo-jefes {
+    width: 100%;
   }
 }
 
 h2 {
   text-align: center;
-}
-div {
-  .grupal2023 {
-    height: 500px;
-    width: 700px;
-  }
-
-  .equipo-jefes {
-    height: 500px;
-    width: 400px;
-  }
 }
 
 fieldset {
@@ -85,8 +77,8 @@ iframe {
     text-align: center;
     position: sticky;
   }
+
   .-volley- {
-    height: 500px;
-    width: 600px;
+    width: 100%;
   }
 }

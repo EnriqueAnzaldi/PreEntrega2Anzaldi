@@ -16,15 +16,19 @@ body div .container-fluid {
   display: grid;
 }
 
+nav {
+  position: sticky;
+  width: auto;
+}
 nav .navbar {
   nav-up: auto;
 }
 nav .nav__list {
   list-style: none;
-  display: flex;
+  display: contents;
 }
 nav .nav__item {
-  margin-left: 5.3rem;
+  margin-left: 7rem;
 }
 nav .nav__link {
   text-decoration: none;
@@ -35,6 +39,7 @@ nav .nav__link {
 header {
   background-color: blue;
   text-transform: uppercase;
+  width: auto;
 }
 header .container {
   margin: 0%;
@@ -70,46 +75,38 @@ section .row {
 section .col {
   columns: auto;
 }
-section .col .-logo- {
+section .-logo- {
+  margin-top: 2%;
   height: 200px;
   width: 300px;
-  columns: 12;
 }
 section .-club- {
-  height: 600px;
-  width: 600px;
+  width: 100%;
 }
 section .-volley- {
-  height: 500px;
-  width: 600px;
+  width: 100%;
 }
 section .-pileta2- {
-  height: 600px;
-  width: 700px;
+  width: 100%;
 }
 section .-walter- {
   height: 400px;
 }
 section .-carreras- {
-  height: 400px;
-  width: 500px;
+  width: 100%;
 }
 section .-pileta- {
-  height: 500px;
-  width: 500px;
+  width: 100%;
+}
+section .grupal2023 {
+  width: 100%;
+}
+section .equipo-jefes {
+  width: 100%;
 }
 
 h2 {
   text-align: center;
-}
-
-div .grupal2023 {
-  height: 500px;
-  width: 700px;
-}
-div .equipo-jefes {
-  height: 500px;
-  width: 400px;
 }
 
 fieldset .container {
@@ -128,8 +125,7 @@ iframe .container {
   position: sticky;
 }
 iframe .-volley- {
-  height: 500px;
-  width: 600px;
+  width: 100%;
 }
 
 footer .container {
